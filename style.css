@@ -5,10 +5,39 @@ body {
     padding: 0;
     background-color: #f4f4f9;
 }
-h1 {
+h1, h3 {
     text-align: center;
     color: #333;
 }
+/* button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+.sort-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .sort-button:hover {
+    background-color: #ddd;
+  }
+  
+  .sort-button.active {
+    background-color: #4CAF50;
+    color: white;
+    cursor: not-allowed;
+  }
+  
 table {
     width: 80%;
     margin: 20px auto;

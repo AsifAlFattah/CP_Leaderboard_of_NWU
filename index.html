@@ -9,12 +9,20 @@
 <body>
   <h1>Codeforces Leaderboard</h1>
   <div class="loading" id="loading">Loading leaderboard...</div>
+  <h3>Rank By - </h3>
+  <div style="text-align: center;">
+    <button id="rankByNumberOfProblemsSolvedOfAllTime" class="sort-button">Number of Problems Solved of All Time</button>
+    <button id="rankByNumberOfProblemsSolvedIn2025" class="sort-button">Number of Problems Solved in 2025</button>
+    <button id="rankByHRating" class="sort-button">Contest Rating</button>
+  </div>
   <table id="leaderboard" style="display: none;">
     <thead>
       <tr>
         <th>Rank</th>
         <th>Handle</th>
         <th>Rating</th>
+        <th>Problems Solved of All Time</th>
+        <th>Problems Solved in 2025</th>
       </tr>
     </thead>
     <tbody>
