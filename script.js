@@ -38,7 +38,7 @@ function displayLeaderboard(users) {
 }
 
 // Replace with your friends' Codeforces handles
-const friendsHandles = ["Asif_Al_Fattah", "SHossain", "md_jakariya", "Sai.kat", "Hridoy_Kumar_Bala", "noman_r", "Shahjalal2075", "jyoti__", "Howlader", "FormerNasir"];
+const friendsHandles = ["Asif_Al_Fattah", "SHossain", "md_jakariya", "Sai.kat", "Hridoy_Kumar_Bala", "noman_r", "Shahjalal2075", "jyoti__", "Howlader", "FormerNasir", "Al-Roman"];
 
 // Fetch and display leaderboard
 fetchLeaderboard(friendsHandles)
